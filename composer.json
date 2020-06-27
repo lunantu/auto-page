@@ -1,0 +1,29 @@
+{
+    "name": "lantu/auto-page",
+    "description": "Make automatic router for laravel views.",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "inubayuaji",
+            "email": "inubayuaji@gmail.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "Lantu\\AutoPage\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Lunantu\\AutoPage\\Providers\\MainProvider"
+            ],
+            "aliases": {
+                "AutoPage": "Lunantu\\AutoPage\\Facades\\Route"
+            }
+        }
+    }
+}

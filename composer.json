@@ -1,5 +1,5 @@
 {
-    "name": "lantu/auto-page",
+    "name": "lunantu/auto-page",
     "description": "Make automatic router for laravel views.",
     "type": "library",
     "license": "MIT",
@@ -13,7 +13,7 @@
     "require": {},
     "autoload": {
         "psr-4": {
-            "Lantu\\AutoPage\\": "src/"
+            "Lunantu\\AutoPage\\": "src/"
         }
     },
     "extra": {

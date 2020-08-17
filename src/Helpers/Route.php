@@ -9,7 +9,7 @@ class Route
 {
     public function route()
     {
-        LaravelRoute::get('{slug}', [PageController::class, 'auto_page'])
+        LaravelRoute::get('{slug}', [PageController::class, 'autoPage'])
             ->where('slug', '.*');
     }
 }

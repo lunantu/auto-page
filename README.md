@@ -37,6 +37,10 @@ Will result route pattern
 /produk
 /produk/{name}/detail
 ```
+Add this code inside route
+``` 
+AutoPage::route()
+```
 Paramater in route like {title} can be access from blade file with $title variable.
 
 ## Contributing
